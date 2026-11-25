@@ -192,3 +192,20 @@ async def bot(runner_args: RunnerArguments):
 ```
 
 This approach works consistently in both local development and Pipecat Cloud production deployments.
+
+curl -X POST https://molasses-ranked-quantum.ngrok-free.dev/start \
+ -H "Content-Type: application/json" \
+ -d '{
+"phone_number": "+918384855717",
+"user_name": "Yogesh",
+"provider": "Aditya Birla Health Insurance",
+"context": "welcome call"
+}'
+
+curl -X POST https://molasses-ranked-quantum.ngrok-free.dev/start \ -H "Content-Type: application/json" \
+ -d '{
+"phone_number": "+919650600406",
+"user_name": "Kuldeep",
+"provider": "Aditya Birla Health Insurance",
+"context": "welcome call"
+}'
